@@ -1,0 +1,10 @@
+// 发起 HTTP GET 请求
+const response = await got({
+  method: 'get',
+  url: 'http://www.scau.edu.cn/',
+  headers: {
+    Referer: 'http://www.scau.edu.cn/',
+    },
+ });
+ 
+ 
